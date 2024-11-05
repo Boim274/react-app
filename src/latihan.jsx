@@ -98,7 +98,7 @@ function ButtonCount2({ count, onClick }) {
 }
 
 // Komponen utama MyApp untuk menggabungkan semua komponen dan menampilkan aplikasi
-export default function MyApp() {
+export default function Latihan() {
     // Menggunakan map untuk menghasilkan elemen list berdasarkan produk
     const listItems = products.map(product =>
         <li
