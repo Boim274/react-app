@@ -11,6 +11,7 @@ import './index.css'
 // import ShoppingCart from './Latihan/ShoppingCart.jsx';
 // import Done from './Latihan/done.jsx';
 import AppRoutes from './routes/AppRoutes.jsx';
+import { LoginProvider } from './context/LoginContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -29,7 +30,9 @@ createRoot(document.getElementById('root')).render(
       </Routes>
     </BrowserRouter> */}
     <BrowserRouter>
+    <LoginProvider>
       <AppRoutes/>
+    </LoginProvider>
     </BrowserRouter>
 
     {/* <App /> */}
