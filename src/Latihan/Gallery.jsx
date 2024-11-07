@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { sculptureList } from "./assets/data.js";
+import { sculptureList } from "../assets/data.js";
 
 function Gallery() {
   // const [index, setIndex] = useState(0);

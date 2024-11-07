@@ -1,5 +1,5 @@
 // Import file CSS latihan.css dan fungsi useState dari React
-import './latihan.css'
+
 import { useState } from 'react';
 
 // Komponen AboutPage untuk menampilkan halaman tentang
